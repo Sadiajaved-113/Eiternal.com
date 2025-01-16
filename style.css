@@ -369,7 +369,7 @@
     width:  100%;
     justify-content: center;
     text-align: center;
-    padding: 0px 200px 0px 200px;
+    /* padding: 0px 200px 0px 200px; */
     line-height: 60px;
     margin-top: -20px;
 }
@@ -426,7 +426,7 @@
         text-align: center;
         height: 190px;
         font-size: 70px;
-        padding: 0px 300px 0px 300px;
+        /* padding: 0px 300px 0px 300px; */
         line-height: 80px;
 }
 .Memorial p{
@@ -448,7 +448,7 @@
         text-align: center;
         height: 340px;
         font-size: 90px;
-        padding: 0px 350px 0px 350px;
+        /* padding: 0px 350px 0px 350px; */
         line-height: 80px;
     
         
@@ -482,7 +482,7 @@
         text-align: center;
         height: 380px;
         font-size: 70px;
-        padding: 0px 400px 0px 400px;
+        /* padding: 0px 400px 0px 400px; */
         line-height: 80px;
     }
     .Create-Page p{
@@ -495,7 +495,7 @@
     .container{
         
         height: 1500px;
-        width: 1258px;
+        width: 1200px;
         }
     .Dedicated-space{
         height: 400px;
@@ -505,7 +505,7 @@
         justify-content: center;
         height: 400px;
         font-size: 70px;
-        padding: 0px 405px 0px 405px;
+        /* padding: 0px 405px 0px 405px; */
        
     }
     .Memorial{
@@ -549,7 +549,7 @@
     .Dedicated-space h1{
         height: 450px;
         font-size: 70px;
-        padding: 0px 400px 0px 400px;
+        /* padding: 0px 400px 0px 400px; */
        
     }
 }
