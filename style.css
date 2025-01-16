@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+     height: 810px;
+     width: 100%;
+     background-color: #1E1C30;
+}
+.box1{
+    height: 120px;
+    width: 860px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white; */
+    margin: 0px auto;
+}
+.logo{
+    height: 120px;
+    width: 120px;
+    text-align: start;
+}
+.logo img{
+    padding: 10px;
+}
+.right-div{
+    height: 71px;
+    width: 250px;
+    /* background-color: rgb(138, 35, 255); */
+    margin: 20px;
+    justify-content:center;
+    align-items: center;
+}
+.login{
+     height: 51px;
+     width: 60px;
+     font-size: 16px;
+     font-weight: 400px;
+     font-family: Arial;
+     margin: 10px 20px 0px 0px;
+     color: #ECC55C;
+     border: 1px solid white;
+     border-radius: 5px;
+     background-color:  #1E1C30;
+}
+.Page{
+     height: 51px;
+     width: 123px;
+     font-size: 16px;
+     font-weight: 400px;
+     font-family: Arial;
+     margin: 10px 20px 0px 0px;
+     color: #ECC55C;
+     border: 2px solid #ECC55C;
+     background-color:  #1E1C30;
+}
+.box-main{
+    height: 425px;
+    width: 860px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    height: 415px;
+    width: 425px;
+    display: block;
+} 
+ .box3{
+    height: 425px;
+    width: 418px;
+}
+.box3 img{
+    height: 425px;
+    width: 365px;
+   padding-left: 20px;
+} 
+.Dedicated-space{
+    height: 148px;
+    width: 745px;
+}
+.Dedicated-space h1{
+    padding-top: 30px;
+    font-size: 62px;
+    color: #ffffff;
+    text-align: start;
+    line-height: 74px;
+    position: absolute;
+}
+.Memorial{
+    height: 80px;
+    width: 400px;
+    margin-top: 70px;
+}
+.Memorial p{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25rem;
+}
+.Create-Page{
+    height: 52px;
+    width: 240px;
+    border: 1px solid #ECC55C;
+    margin-top: 40px;
+    display: flex;
+}
+.Create-Page p{
+    height: 30px;
+     width: 123px;
+     font-size: 18px;
+     font-weight: 700px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 10px 10px 0px 0px;
+     color: #ECC55C;
+     background-color:  #1E1C30;
+     padding-left: 20px;
+}
+.Create-Page img{
+    height: 23px;
+    width: 57px;
+    margin: 15px;
+}
+.container2{
+    height: 763px;
+    width: 973px;
+}
+.div1{
+    height: 163px;
+    width: 840px;
+    margin: 0px 200px;
+}
+.div1-box{
+    height: 32px;
+    width: 840px;
+    background-color: #ECC55C;
+    margin: 0px 30px;
+}
+.box-main2{
+    height: 600px;
+    width: 995px;
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.Memorial-Page {
+    height: 498px;
+    width: 473px;
+    display: block;
+}
+.Memorial-img img{
+    height: 550px;
+    width: 523px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.page1{
+    height: 120px;
+    width: 336px;
+   
+}
+.page1 h1{
+    font-size: 50px;
+    color: #000000;
+}
+.page2{
+    height: 224px;
+    width: 473px;
+    margin-top: 60px;
+}
+.page3{
+    height: 60px;
+    width: 473px;
+    display: flex;
+}
+.page3-img{
+    height: 60px;
+    width:  60px;
+    border-radius: 50%;
+    background-color: #FFAFCA;
+}
+.page3-img img{
+    height: 29px;
+    width:  46px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.funereal-page{
+    height: 40px;
+    width:  200px;
+    margin: 15px;
+}
+.funereal-page p{
+    font-size: 16px;
+    color: #1E1E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+}
+.page4{
+    height: 57px;
+    width: 473px;
+    margin-top: 30px;
+    display: flex;
+}
+.page4-img{
+    height: 56px;
+    width:  57px;
+    border-radius: 50%;
+    background-color: #95D3DF;
+}
+.page4-img img{
+    height: 29px;
+    width:  46px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 0px 5px;
+}
+.Time{
+    height: 20px;
+    width:  399px;
+    margin: 17px;
+}
+.Time p{
+    font-size: 18px;
+    color: #1E1E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+}
+.page5{
+    height: 57px;
+    width: 473px;
+    margin-top: 30px;
+    display: flex;
+}
+.page5-img{
+    height: 56px;
+    width:  57px;
+    border-radius: 50%;
+    background-color: #ECC55C;
+}
+.page5-img img{
+    height: 29px;
+    width:  46px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 0px 5px;
+}
+.financial{
+    height: 40px;
+    width:  399px;
+    margin: 12px;
+}
+.financial p{
+    font-size: 18px;
+    color: #1E1E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+}
+.work{
+    height: 41px;
+    width:  350px;
+    margin-top: 80px;
+}
+.work a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+.work img{
+    height: 23px;
+    width:  57px;
+    margin-top: 12px;
+    padding-left: 5px;
+}
+@media (max-width: 1196px){
+    .container{
+        height: 810px;
+        width: 1196px;
+    }
+}
+@media (max-width: 950px) {
+    .container{
+        height: 810px;
+        width: 1196px;
+    }
+    /* .box-main{
+        height: 850px;
+        width: 860px;
+        display: block;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+    } */
+    .box1{
+        height: 120px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+    .right-div{
+        visibility: hidden;
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 120px;
+        vertical-align: middle;
+    }
+    .logo img{
+        /* padding: 10px 10px 0px 100px; */
+        margin-left: 80px;
+    }
+
+}
+@media (max-width: 913px) {
+    .container{
+        height: 1100px;
+        width: 1307px;
+    }
+    .box-main{
+        height: 850px;
+        width: 100%;
+        margin: 0px 0px;
+        /* padding-left: .75rem;
+        padding-right: .75rem; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .box3{
+        height: 425px;
+        width: 418px;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    .box3 img{
+        height: 475px;
+        width: 365px;
+        justify-content: center;
+        padding: 0px;
+  } 
+  .box2{
+    width:  100%;
+   
+}
+.Dedicated-space{
+    height: 120px;
+    width:  100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.Dedicated-space h1{
+    height: 120px;
+    width:  100%;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    line-height: 60px;
+    margin-top: -20px;
+}
+.Memorial{
+    height: 100px;
+    width: 100%;
+}
+.Memorial p{
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    padding: 5px;
+}
+.Create-Page{
+    height: 80px;
+    width:  1200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 40px 0px 40px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    border: 2px solid #ECC55C;
+}
+.Create-Page p{
+    font-size: 30px;
+    width: 400px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 800px;
+    margin-top: 0px;
+}
+.div1{
+    height: 163px;
+    width:   1305px;
+    margin: 0px;
+}
+.div1-box{
+    height: 58px;
+    width: 1305px;
+    margin: 0px;
+}
+}
+@media(max-width: 750px){
+    .container{
+        height: 1200px;
+        width: 1305px;
+    }
+    .Dedicated-space{
+        height: 170px;
+    }
+    .Dedicated-space h1{
+        justify-content: center;
+        text-align: center;
+        height: 190px;
+        font-size: 70px;
+        padding: 0px 300px 0px 300px;
+        line-height: 80px;
+}
+.Memorial p{
+    font-size: 30px;
+    padding: 10px;
+}
+}
+@media(max-width: 650px){
+    .container{
+        height: 1500px;
+        width: 1305px;
+    }
+    .Dedicated-space{
+        height: 340px;
+        top: -50px;
+    }
+    .Dedicated-space h1{
+        justify-content: center;
+        text-align: center;
+        height: 340px;
+        font-size: 90px;
+        padding: 0px 350px 0px 350px;
+        line-height: 80px;
+    
+        
+}
+.box2{
+    justify-content: space-between;
+}
+.box3 img{
+  width: 400px;
+}
+.Memorial p{
+    height: 250px;
+    font-size: 40px;
+    padding: 10px;
+    line-height: 50px;
+    margin-top: 100px;
+}
+.Create-Page{
+    height: 100px;
+    width:  1200px;
+    margin-top: 200px;
+}
+}
+@media(max-width: 475px){
+    .Dedicated-space{
+        height: 380px;
+        top: -50px;
+    }
+    .Dedicated-space h1{
+        justify-content: center;
+        text-align: center;
+        height: 380px;
+        font-size: 70px;
+        padding: 0px 400px 0px 400px;
+        line-height: 80px;
+    }
+    .Create-Page p{
+        font-size: 40px;
+        font-weight: 800px;
+        margin-top: 0px;
+    }
+}
+@media(max-width: 450px){
+    .container{
+        
+        height: 1500px;
+        width: 1258px;
+        }
+    .Dedicated-space{
+        height: 400px;
+        top: -50px;
+    }
+    .Dedicated-space h1{
+        justify-content: center;
+        height: 400px;
+        font-size: 70px;
+        padding: 0px 405px 0px 405px;
+       
+    }
+    .Memorial{
+        height: 100px;
+        width:  1200px;
+    }
+    .Create-Page{
+        height: 100px;
+        width:  1100px;
+}
+.div1{
+    height: 163px;
+    width:  1260px;
+    margin: 0px;
+}
+.div1-box{
+    height: 58px;
+    width: 1260px;
+}
+.logo{
+    height: 200px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+.logo img{
+    height: 200px;
+    width: 140px;
+    /* margin-bottom: 20px; */
+}
+}
+@media(max-width: 365px){
+    .container{
+        
+        height: 1500px;
+        width: 1255px;
+        }
+    .Dedicated-space{
+        height: 450px;
+      
+    }
+    .Dedicated-space h1{
+        height: 450px;
+        font-size: 70px;
+        padding: 0px 400px 0px 400px;
+       
+    }
+}
+
+
+
