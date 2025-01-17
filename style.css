@@ -85,7 +85,7 @@
     color: #ffffff;
     text-align: start;
     line-height: 74px;
-    position: absolute;
+    position: relative;
 }
 .Memorial{
     height: 80px;
@@ -280,17 +280,17 @@
     margin-top: 12px;
     padding-left: 5px;
 }
-@media (max-width: 1196px){
+/* @media (max-width: 1196px){
     .container{
         height: 810px;
         width: 1196px;
     }
-}
-@media (max-width: 950px) {
-    .container{
+} */
+/* @media (max-width: 950px) { */
+    /* .container{
         height: 810px;
         width: 1196px;
-    }
+    } */
     /* .box-main{
         height: 850px;
         width: 860px;
@@ -299,7 +299,7 @@
         justify-content: center;
         align-items: center;
     } */
-    .box1{
+    /* .box1{
         height: 120px;
         width: 100%;
         justify-content: center;
@@ -318,14 +318,32 @@
     }
     .logo img{
         /* padding: 10px 10px 0px 100px; */
-        margin-left: 80px;
-    }
+    
 
-}
-@media (max-width: 913px) {
+@media(max-width: 913px) {
     .container{
         height: 1100px;
-        width: 1307px;
+    }
+    .box1{
+        height: 120px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+    .right-div{
+        visibility: hidden;
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 120px;
+        vertical-align: middle;
+    }
+    
+    .logo img{
+        margin-left: 130px;
     }
     .box-main{
         height: 850px;
@@ -351,7 +369,7 @@
         height: 475px;
         width: 365px;
         justify-content: center;
-        padding: 0px;
+        padding-left: 23px;
   } 
   .box2{
     width:  100%;
@@ -368,8 +386,8 @@
     height: 120px;
     width:  100%;
     justify-content: center;
+    font-size: 50px;
     text-align: center;
-    /* padding: 0px 200px 0px 200px; */
     line-height: 60px;
     margin-top: -20px;
 }
@@ -378,29 +396,27 @@
     width: 100%;
 }
 .Memorial p{
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 1.7rem;
     text-align: center;
     padding: 5px;
 }
 .Create-Page{
     height: 80px;
-    width:  1200px;
+    width: 812px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 80px 40px 0px 40px;
-    /* margin-left: 5px;
-    margin-right: 5px; */
+    margin: 80px 40px 0px 30px;
     border: 2px solid #ECC55C;
 }
 .Create-Page p{
     font-size: 30px;
-    width: 400px;
+    width: 340px;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: 800px;
-    margin-top: 0px;
+    margin: 0px;
 }
 .div1{
     height: 163px;
@@ -413,7 +429,194 @@
     margin: 0px;
 }
 }
-@media(max-width: 750px){
+@media(max-width: 875px){
+    /* .Dedicated-space{
+        height: 120px;
+        width:  100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .Dedicated-space h1{
+        width:  100%;
+        justify-content: center;
+        font-size: 50px;
+        text-align: center;
+        line-height: 60px;
+        margin-top: -20px;
+    } */
+
+    
+    .Create-Page{
+        width:  800px;
+    }
+   
+} 
+@media(max-width: 850px){
+    .Create-Page{
+        width:  780px;
+}
+}
+@media(max-width: 835px){
+    .Create-Page{
+        width:  760px;
+}
+}
+@media(max-width: 811px){
+    .Create-Page{
+        width:  740px;
+}
+}
+@media(max-width: 805px){
+    .Create-Page{
+        width:  710px;
+}
+}
+@media(max-width: 760px){
+    .Create-Page{
+        width:  680px;
+}
+}
+@media(max-width: 730px){
+    .Create-Page{
+        width:  640px;
+}
+}
+@media(max-width: 685px){
+    .Create-Page{
+        width:  610px;
+}
+}
+@media(max-width: 660px){
+    .Create-Page{
+        width:  580px;
+}
+}
+@media(max-width: 630px){
+    .Create-Page{
+        width:  550px;
+}
+}
+@media(max-width: 600px){
+    .Dedicated-space h1{
+        height: 180px;
+        width: 100%;
+    }
+    .Memorial{
+        padding-top: 50px;
+    }
+    .Memorial p{
+        /* font-size: 18px;
+        line-height: 1.7rem;
+        text-align: center; */
+        padding: 10px;
+        
+    }
+    .Create-Page{
+        width:  520px;
+}
+}
+@media(max-width: 563px){
+    .Create-Page{
+        width:  490px;
+}
+}
+@media(max-width: 523px){
+    .Create-Page{
+        width:  460px;
+}
+}
+@media(max-width: 496px){
+    .Create-Page{
+        width:  430px;
+}
+}
+@media(max-width: 467px){
+    .Create-Page{
+        width:  400px;
+}
+.Create-Page p{
+    font-size: 25px;
+    width: 340px;
+}
+}
+@media(max-width: 437px){
+    .Create-Page{
+        width:  370px;
+}
+.Create-Page p{
+    font-size: 20px;
+   
+}
+}
+@media(max-width: 418px){
+    .box3{
+        width:  390px;
+}
+.box3 img{
+    padding-left: 10px;
+}
+    .Create-Page{
+        width:  340px;
+}
+.Create-Page p{
+    font-size: 18px;
+   font-weight: 800px;
+}
+}
+@media(max-width: 395px){
+    .box3{
+        width:  340px;
+}
+    .box3 img{
+    width: 330px;
+    padding-left: 10px;
+}
+    .Dedicated-space h1{
+        height: 226px;
+    }
+    .Memorial{
+        padding-top: 100px;
+    }
+    .Create-Page{
+        margin-top: 120px;
+        height: 55px;
+    }
+}
+@media(max-width: 375px){
+    .Create-Page{
+        width:  310px;
+        margin-top: 130px;
+        height: 48px;
+}
+    .Create-Page p{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.75rem;
+    }
+    .Create-Page img{
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media(max-width: 750px){
     .container{
         height: 1200px;
         width: 1305px;
@@ -427,13 +630,13 @@
         height: 190px;
         font-size: 70px;
         /* padding: 0px 300px 0px 300px; */
-        line-height: 80px;
-}
+        /* line-height: 80px; */
+/* }
 .Memorial p{
     font-size: 30px;
     padding: 10px;
-}
-}
+} */
+/* }
 @media(max-width: 650px){
     .container{
         height: 1500px;
@@ -441,15 +644,15 @@
     }
     .Dedicated-space{
         height: 340px;
-        top: -50px;
-    }
+        top: -50px; */
+    /* }
     .Dedicated-space h1{
         justify-content: center;
         text-align: center;
         height: 340px;
         font-size: 90px;
         /* padding: 0px 350px 0px 350px; */
-        line-height: 80px;
+        /* line-height: 80px;
     
         
 }
@@ -462,8 +665,8 @@
 .Memorial p{
     height: 250px;
     font-size: 40px;
-    padding: 10px;
-    line-height: 50px;
+    padding: 10px; */ 
+    /* line-height: 50px;
     margin-top: 100px;
 }
 .Create-Page{
@@ -483,14 +686,14 @@
         height: 380px;
         font-size: 70px;
         /* padding: 0px 400px 0px 400px; */
-        line-height: 80px;
-    }
-    .Create-Page p{
+        /* line-height: 80px;
+    } */
+    /* .Create-Page p{
         font-size: 40px;
         font-weight: 800px;
         margin-top: 0px;
-    }
-}
+    } */
+/* }
 @media(max-width: 450px){
     .container{
         
@@ -507,16 +710,16 @@
         font-size: 70px;
         /* padding: 0px 405px 0px 405px; */
        
-    }
+    /* }
     .Memorial{
         height: 100px;
-        width:  1200px;
-    }
-    .Create-Page{
-        height: 100px;
+        width:  1200px; */
+    /* }
+    .Create-Page{ */
+        /* height: 100px;
         width:  1100px;
-}
-.div1{
+} */
+/* .div1{
     height: 163px;
     width:  1260px;
     margin: 0px;
@@ -524,35 +727,33 @@
 .div1-box{
     height: 58px;
     width: 1260px;
-}
-.logo{
+} */
+/* .logo{
     height: 200px;
     width: 140px;
     margin-bottom: 20px;
-}
-.logo img{
+} */
+/* .logo img{
     height: 200px;
     width: 140px;
     /* margin-bottom: 20px; */
+/* }
 }
-}
-@media(max-width: 365px){
-    .container{
+@media(max-width: 365px){ */
+    /* .container{
         
         height: 1500px;
         width: 1255px;
         }
-    .Dedicated-space{
-        height: 450px;
-      
-    }
+    .Dedicated-space{ */
+        /* height: 450px;
+       */ 
+    /* }
     .Dedicated-space h1{
         height: 450px;
         font-size: 70px;
         /* padding: 0px 400px 0px 400px; */
        
-    }
-}
-
-
+    /* }
+}  */
 
