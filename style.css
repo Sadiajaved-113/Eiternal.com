@@ -598,6 +598,17 @@
         margin-left: 0px;
     }
 }
+@media(max-width: 351px){
+    .Dedicated-space h1{
+        height: 280px;
+    }
+    .Memorial{
+        padding-top: 160px;
+    }
+    .container{
+        height:1170px;
+    }
+}
 
 
 
