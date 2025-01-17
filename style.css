@@ -503,6 +503,7 @@
         width: 100%;
     }
     .Memorial{
+        height: 150px;
         padding-top: 50px;
     }
     .Memorial p{
@@ -550,12 +551,16 @@
 }
 }
 @media(max-width: 418px){
+
     .box3{
         width:  390px;
 }
-.box3 img{
+   .box3 img{
     padding-left: 10px;
 }
+  .Memorial{
+    height: 165px;
+  }
     .Create-Page{
         width:  340px;
 }
@@ -565,6 +570,9 @@
 }
 }
 @media(max-width: 395px){
+    .container{
+        height: 1150px;
+    }
     .box3{
         width:  340px;
 }
@@ -576,17 +584,23 @@
         height: 226px;
     }
     .Memorial{
-        padding-top: 100px;
+        padding-top: 130px;
     }
     .Create-Page{
-        margin-top: 120px;
-        height: 55px;
+        margin-top: 80px;
+        height: 50px;
     }
 }
 @media(max-width: 375px){
+    .container{
+        height: 1200px;
+    }
+    .Memorial{
+        height: 180px;
+    }
     .Create-Page{
         width:  310px;
-        margin-top: 130px;
+        margin-top: 100px;
         height: 48px;
 }
     .Create-Page p{
@@ -600,12 +614,13 @@
 }
 @media(max-width: 351px){
     .container{
-        height:1200px;
+        height:1260px;
     }
     .Dedicated-space h1{
         height: 280px;
     }
     .Memorial {
+        height: 190px;
         padding-top: 200px;
     }
     .Create-Page{
