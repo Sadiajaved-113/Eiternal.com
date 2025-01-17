@@ -599,15 +599,27 @@
     }
 }
 @media(max-width: 351px){
+    .container{
+        height:1200px;
+    }
     .Dedicated-space h1{
         height: 280px;
     }
-    .Memorial{
-        padding-top: 160px;
+    .Memorial {
+        padding-top: 200px;
     }
-    .container{
-        height:1170px;
+    .Create-Page{
+        width: 290px;
     }
+    .Create-Page p{
+        line-height: 1.2rem;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .Create-Page img{
+        margin-left: 0px;
+    }
+    
 }
 
 
