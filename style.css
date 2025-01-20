@@ -124,25 +124,50 @@
 }
 .container2{
     height: 763px;
-    width: 973px;
+    width:  999px;
+}
+.outer-div{
+    width: 100vw;
+    height: 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div1{
-    height: 163px;
-    width: 840px;
-    margin: 0px 200px;
+    height: 183px;
+     width: 840px;
 }
 .div1-box{
     height: 32px;
     width: 840px;
     background-color: #ECC55C;
-    margin: 0px 30px;
+}
+.heading{
+  margin-top: 40px;
+}
+.heading h1{
+     text-align: center;
+     font-size: 50px;
+     visibility: hidden;
+}
+.outer-main{
+    width: 100vw;
+    /* height: 600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-main2{
     height: 600px;
     width: 995px;
-    margin: 0px 200px;
+    
     display: flex;
-    justify-content: space-between;
 }
 .Memorial-Page {
     height: 498px;
@@ -152,7 +177,7 @@
 .Memorial-img img{
     height: 550px;
     width: 523px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 10px;
 }
 .page1{
@@ -194,7 +219,7 @@
     margin: 15px;
 }
 .funereal-page p{
-    font-size: 16px;
+    font-size: 18px;
     color: #1E1E1E;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800px;
@@ -260,10 +285,17 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800px;
 }
+.outer-work{
+    height: 41px;
+    width:  350px;
+    /* justify-content: center;
+    align-items: center; */
+   
+}
 .work{
     height: 41px;
     width:  350px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .work a{
     text-decoration: none;
@@ -280,47 +312,7 @@
     margin-top: 12px;
     padding-left: 5px;
 }
-/* @media (max-width: 1196px){
-    .container{
-        height: 810px;
-        width: 1196px;
-    }
-} */
-/* @media (max-width: 950px) { */
-    /* .container{
-        height: 810px;
-        width: 1196px;
-    } */
-    /* .box-main{
-        height: 850px;
-        width: 860px;
-        display: block;
-        margin-top: 0px;
-        justify-content: center;
-        align-items: center;
-    } */
-    /* .box1{
-        height: 120px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        vertical-align: middle;
-    }
-    .right-div{
-        visibility: hidden;
-    }
-    .logo{
-        justify-content: center;
-        align-items: center;
-        height: 120px;
-        width: 120px;
-        vertical-align: middle;
-    }
-    .logo img{
-        /* padding: 10px 10px 0px 100px; */
-    
-
-@media(max-width: 913px) {
+ @media(max-width: 913px) {
     .container{
         height: 1100px;
     }
@@ -349,8 +341,6 @@
         height: 850px;
         width: 100%;
         margin: 0px 0px;
-        /* padding-left: .75rem;
-        padding-right: .75rem; */
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
@@ -375,13 +365,13 @@
     width:  100%;
    
 }
-.Dedicated-space{
+ .Dedicated-space{
     height: 120px;
     width:  100%;
     justify-content: center;
     align-items: center;
     padding: 0px;
-}
+} 
 .Dedicated-space h1{
     height: 120px;
     width:  100%;
@@ -418,36 +408,9 @@
     font-weight: 800px;
     margin: 0px;
 }
-.div1{
-    height: 163px;
-    width:   1305px;
-    margin: 0px;
-}
-.div1-box{
-    height: 58px;
-    width: 1305px;
-    margin: 0px;
-}
-}
+} 
 @media(max-width: 875px){
-    /* .Dedicated-space{
-        height: 120px;
-        width:  100%;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-    }
-    .Dedicated-space h1{
-        width:  100%;
-        justify-content: center;
-        font-size: 50px;
-        text-align: center;
-        line-height: 60px;
-        margin-top: -20px;
-    } */
-
-    
-    .Create-Page{
+   .Create-Page{
         width:  800px;
     }
    
@@ -507,9 +470,6 @@
         padding-top: 50px;
     }
     .Memorial p{
-        /* font-size: 18px;
-        line-height: 1.7rem;
-        text-align: center; */
         padding: 10px;
         
     }
@@ -635,163 +595,437 @@
         margin-left: 0px;
     }
     
+} 
+@media(max-width:1000px){
+    .container2{
+        width: 100%;
+    }
+    .box-main2{
+        width: 920px;
+    }
+    .Memorial-img img{
+        width: 480px;
+    }
+}
+@media(max-width:983px){
+    .Memorial-img img{
+       width: 450px;
+    }
+}
+@media(max-width:931px){
+    .Memorial-img img{
+       width: 430px;
+    }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media(max-width: 750px){
-    .container{
-        height: 1200px;
-        width: 1305px;
+  @media(max-width:913px){
+    .container2{
+        height: 1350px;
     }
-    .Dedicated-space{
-        height: 170px;
+    .outer-div{
+        width: 100%;
     }
-    .Dedicated-space h1{
+    .heading{
+        margin-top: 40px;
+        visibility: visible;
         justify-content: center;
-        text-align: center;
-        height: 190px;
-        font-size: 70px;
-        /* padding: 0px 300px 0px 300px; */
-        /* line-height: 80px; */
-/* }
-.Memorial p{
-    font-size: 30px;
+      }
+      .heading h1{
+           text-align: center;
+           font-size: 50px;
+           visibility: visible;
+           margin-top: 60px;
+      }
+      .div1{
+        margin: 0px;
+        height: 230px;
+        width: 100%;
+    }
+    .div1-box{
+        margin: 0px;
+        height: 68px;
+        width: 100%;
+    }
+    .page1{
+        height: 120px;
+        width: 336px;
+        visibility: hidden;
+    }
+    .page1 h1{
+        font-size: 50px;
+        color: #000000;
+        visibility: hidden;
+    }
+    .box-main2{
+        margin: 120px 0px 0px 0px;
+        flex-direction: column-reverse;
+         justify-content: center;
+        align-items: center;
+       height: 943px;
+   }
+   .Memorial-Page{
+    height: 595px;
+    width:  100%;;
+    /* padding: 0px 12px; */
+   }
+   .page2{
+    height: 450px;
+    width:  100%;
+   }
+   .Memorial-img img{
+    /* justify-content: center;
+    align-items: center;  */
+    height: 398px;
+ }
+    .page3{
+    margin-top: -100px;
+    height: 123px;
+    margin-left: 8px;
+    width: 830px;
+    /* padding-left: 5px; */
+    padding: 0px 20px;
+    background-color: #FFAFCA;
+    border-radius: 25px; 
+    align-items: center;
+}
+.page3-img{
+    height: 60px;
+    width: 60px;
+    padding: 0px;
+    align-items: center;
+}
+.page3-img img{
+    padding: 0px;
+    height: 49px;
+}
+.page4{
+    height: 123px;
+    width: 825px;
+    /* padding: 0px 25px; */
+    padding: 0px 20px;
+    background-color: #95D3DF;
+    border-radius: 25px; 
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.page4-img{
+    height: 57px;
+    width: 67px;
+    padding: 0px;
+}
+.page4-img img{
+    height: 49px;
+    width: 60px;
+    padding: 0px;
+}
+.Time p{
+    font-size: 18px;
+}
+.page5{
+    height: 123px;
+    width: 825px;
+    /* padding: 0px 25px; */
+    padding: 0px 20px;
+    background-color: #ECC55C;
+    border-radius: 25px; 
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.page5-img{
+    height: 57px;
+    width: 67px;
+    padding: 0px;
+}
+.page5-img img{
+    height: 48px;
+    width: 48px;
+    padding: 0px;
+}
+ .funereal-page{
+    width: 430px;
+    margin: 0px;
+    align-items: center;
+}
+.funereal-page p{
     padding: 10px;
-} */
-/* }
-@media(max-width: 650px){
-    .container{
-        height: 1500px;
-        width: 1305px;
-    }
-    .Dedicated-space{
-        height: 340px;
-        top: -50px; */
-    /* }
-    .Dedicated-space h1{
-        justify-content: center;
-        text-align: center;
-        height: 340px;
-        font-size: 90px;
-        /* padding: 0px 350px 0px 350px; */
-        /* line-height: 80px;
-    
-        
+    font-size: 18px;
 }
-.box2{
-    justify-content: space-between;
+.outer-work{
+    display: flex;
+    height: 48px;
+    width:  100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 }
-.box3 img{
-  width: 400px;
-}
-.Memorial p{
-    height: 250px;
-    font-size: 40px;
-    padding: 10px; */ 
-    /* line-height: 50px;
-    margin-top: 100px;
-}
-.Create-Page{
-    height: 100px;
-    width:  1200px;
-    margin-top: 200px;
-}
-}
-@media(max-width: 475px){
-    .Dedicated-space{
-        height: 380px;
-        top: -50px;
-    }
-    .Dedicated-space h1{
-        justify-content: center;
-        text-align: center;
-        height: 380px;
-        font-size: 70px;
-        /* padding: 0px 400px 0px 400px; */
-        /* line-height: 80px;
-    } */
-    /* .Create-Page p{
-        font-size: 40px;
-        font-weight: 800px;
-        margin-top: 0px;
-    } */
-/* }
-@media(max-width: 450px){
-    .container{
-        
-        height: 1500px;
-        width: 1200px;
-        }
-    .Dedicated-space{
-        height: 400px;
-        top: -50px;
-    }
-    .Dedicated-space h1{
-        justify-content: center;
-        height: 400px;
-        font-size: 70px;
-        /* padding: 0px 405px 0px 405px; */
-       
-    /* }
-    .Memorial{
-        height: 100px;
-        width:  1200px; */
-    /* }
-    .Create-Page{ */
-        /* height: 100px;
-        width:  1100px;
-} */
-/* .div1{
-    height: 163px;
-    width:  1260px;
+.work{
     margin: 0px;
 }
-.div1-box{
-    height: 58px;
-    width: 1260px;
-} */
-/* .logo{
-    height: 200px;
-    width: 140px;
-    margin-bottom: 20px;
-} */
-/* .logo img{
-    height: 200px;
-    width: 140px;
-    /* margin-bottom: 20px; */
-/* }
+  }
+@media(max-width:880px){
+    .page3{
+        width:800px;
+    }
+    .page4{
+        width:800px;
+    }
+    .page5{
+        width:800px;
+    }
 }
-@media(max-width: 365px){ */
-    /* .container{
+ @media(max-width:860px){
+    .page3{
+        width:770px;
+    }
+    .page4{
+        width:770px;
+    }
+    .page5{
+        width:770px;
+    }
+} 
+@media(max-width:820px){
+    .page3{
+        width:740px;
+    }
+    .page4{
+        width:740px;
+    }
+    .page5{
+        width:740px;
+    }
+} 
+@media(max-width:790px){
+    .page3{
+        width:710px;
+    }
+    .page4{
+        width:710px;
+    }
+    .page5{
+        width:710px;
+    }
+} 
+@media(max-width:760px){
+    .page3{
+        width:680px;
+    }
+    .page4{
+        width:680px;
+    }
+    .page5{
+        width:680px;
+    }
+} 
+@media(max-width:730px){
+    .page3{
+        width:650px;
+    }
+    .page4{
+        width:650px;
+    }
+    .page5{
+        width:650px;
+    }
+} 
+@media(max-width:700px){
+    .page3{
+        width:620px;
+    }
+    .page4{
+        width:620px;
+    }
+    .page5{
+        width:620px;
+    }
+} 
+@media(max-width:665px){
+    .page3{
+        width:590px;
+    }
+    .page4{
+        width:590px;
+    }
+    .page5{
+        width:590px;
+    }
+}
+@media(max-width:645px){
+    .page3{
+        width:560px;
+    }
+    .page4{
+        width:560px;
+    }
+    .page5{
+        width:560px;
+    }
+} 
+@media(max-width:615px){
+    .page3{
+        width:520px;
+    }
+    .page4{
+        width:520px;
+    }
+    .page5{
+        width:520px;
+    }
+} 
+@media(max-width:570px){
+    .page3{
+        width:480px;
+    }
+    .page4{
+        width:480px;
+    }
+    .page5{
+        width:480px;
+    }
+} 
+@media(max-width:530px){
+    .page3{
+        width:440px;
+    }
+    .page4{
+        width:440px;
+    }
+    .page5{
+        width:440px;
+    }
+    .funereal-page{
+        width:321px;
         
-        height: 1500px;
-        width: 1255px;
-        }
-    .Dedicated-space{ */
-        /* height: 450px;
-       */ 
-    /* }
-    .Dedicated-space h1{
-        height: 450px;
-        font-size: 70px;
-        /* padding: 0px 400px 0px 400px; */
+    }
+     .funereal-page p{
+        /* width:341px; */
+        height: 21px;
+        padding-top: 3px;
+        padding-bottom: 0px;
+    } 
+} 
+@media(max-width:490px){
+    .page3{
+        width:400px;
+    }
+    .page4{
+        width:400px;
+    }
+    .page5{
+        width:400px;
+    }
+} 
+@media(max-width:450px){
+    .page3{
+        width:360px;
+    }
+    .page4{
+        width:360px;
+    }
+    .page5{
+        width:360px;
+    }
+} 
+@media(max-width:430px){
+    .Memorial-img img{
+        width:100%;
+    }
+    .Memorial-Page{
+        width:100%;
+    }
+    .page3{
+        width:330px;
+    }
+    .page4{
+        width:330px;
+    }
+    .page5{
+        width:330px;
+    }
+     .financial{
+        
+        width: 280px;
        
-    /* }
-}  */
+    }
+    .Time p{
+        margin-top: -9px;
+    } 
+    .financial p{
+        height: 22px;
+        width: 280px;
+    }
+}
+@media(max-width:390px){
+    .Memorial-img img{
+        width:100%;
+    }
+    .Memorial-Page{
+        width:100%;
+    }
+}
+@media(max-width:380px){
+    .Memorial-img img{
+        width:100%;
+    }
+    .Memorial-Page{
+        width:100%;
+    }
+    .financial{
+        
+        width: 260px;
+       
+    }
+    .financial p{
+        height: 22px;
+        width: 260px;
+    }
+    .page3{
+        width:310px;
+    }
+    .page4{
+        width:310px;
+    }
+    .page5{
+        width:310px;
+    }
+}
+@media(max-width:360px){
+    .page3{
+        width:290px;
+    }
+    .page4{
+        width:290px;
+    }
+    .page5{
+        width:290px;
+    }
+}
 
+    
+   
+   
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
