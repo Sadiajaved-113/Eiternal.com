@@ -326,6 +326,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    display: block;
     background-color: #95D3DF;
 }
 .image-1{
@@ -339,19 +340,108 @@ body {
     height:459px;
     width:345px;
     position: absolute;
-    top:15%;
+    top:16%;
     left:32%;
 }
 .image-3{
+    height:345px;
+    width:458px;
+    position: absolute;
+    top:27%;
+    left:44%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 10px;
+    transform: skewY(-20deg);
+   
+}
+.image-3::-webkit-scrollbar{
+    display: none;
+}
+ .main{
     height:458px;
     width:345px;
-    position: absolute;
-    top:25%;
-    left:42%;
-    overflow: hidden;
-    transform: translateX(-0%);
-    border-radius: 10px;
+    justify-content: flex-start;
+    left:0;
+    right:50%;
+    top:30%;
+    border-radius: 30px;
+    opacity: 1;
 }
+.image-3 img{
+    height:333px;
+    width:345px;
+    justify-content: flex-start;
+    left:0;
+    right:50%;
+    top:30%;
+    border-radius: 30px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+   
+}
+.image-3 img.main {
+    visibility: visible;
+    opacity: 1;
+}
+.outer-container1{
+    height:650px;
+    width: 209px;
+}
+.button2{
+    height:21px;
+    width: 213px;
+    margin:0px 0px 0px 100px;
+    margin-left: 260px;
+    position: absolute;
+    display:flex;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+.back-Btn2{
+    height:21px;
+    width:48px;
+    /* position:absolute; */
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 5px;
+    padding-left: 15px;
+    color: #000000;
+    cursor: pointer;
+}
+.next-Btn2{
+    height:21px;
+    width:48px;
+    /* position:absolute; */
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 5px;
+    padding-right: 10px;
+    color: #000000;
+    cursor: pointer;
+}
+.dots2{
+    width: 46px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+.dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+/* .outer-container1{
+    height:600px;
+    width:525px;
+} */
 /* .image-3 img{
     width: 100%; /* Make the image fill the div */
     /* height: auto;  */
@@ -699,12 +789,88 @@ body {
 .section-images{
     height: 600px;
     width: 1600px;
-    white-space: nowrap;
+    white-space: nowrap; 
     /* background-color: #ECC55C; */
-    overflow-x: auto;
-    
-   overflow-y: hidden;
+     overflow-x: auto;
+    overflow-y: hidden;
 
+}
+.gallery{
+    height:465px;
+    width:1000px;
+    /* white-space: nowrap; */
+    /* overflow-x: auto;
+    overflow-y: hidden;
+    overflow-x: hidden; */
+}
+.buttons{
+    height:21px;
+    width: 235px;
+    margin:96px 0px 0px 30px;
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+}
+.back-Btn{
+    height:21px;
+    width:42px;
+    /* position:absolute; */
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .2rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.next-Btn{
+    height:21px;
+    width:48px;
+    /* position:absolute; */
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .2rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.dots{
+    width: 88px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 7px;
+}
+.dot1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.dot2{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.dot3{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.dot4{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.dot5{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
 }
 .div1-img{
     margin-top: 60px;
