@@ -10,13 +10,16 @@ nextBtn2.addEventListener("click" ,() =>{
     imageContainer.style.scrollBehavior = "smooth";
     imageContainer.scrollLeft+= 345;
     images[1].style.opacity = "1";
+    images[2].style.opacity = "1";
 
 });
 
 backBtn1.addEventListener("click" ,() =>{
     imageContainer.style.scrollBehavior = "smooth";
     imageContainer.scrollLeft -= 345;
-    images[1].style.opacity = "0";   
+    // images[1].style.opacity = "0";
+    images[1].style.opacity = "1";
+    images[2].style.opacity = "1"; 
 }); 
 
 // section-images
